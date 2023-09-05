@@ -1,0 +1,111 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #026aa7;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-color: #f9f9f9;
+  cursor: pointer; 
+}
+
+#add-task {
+  background-color: #026aa7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer; 
+}
+
+.card h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Optional styling for completed tasks (example) */
+#completed-list li {
+  background-color: #b5e7a0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-color: #f9f9f9;
+  cursor: pointer; 
+}
+
+/* Styling for the "Next" button */
+.next-button {
+  background-color: #026aa7;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer; 
+  margin-left: 10px; 
+}
+
+
+/* Styling for task item container */
+li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  max-width: 300px;
+}
+
+/* Styling for the task text */
+li span {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
