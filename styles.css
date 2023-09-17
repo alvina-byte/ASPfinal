@@ -1,0 +1,102 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  
+  /* Main content styles */
+  .container {
+    margin-top: 20px;
+  }
+  
+  /* Task Section */
+  .card {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #315a39;
+  }
+  
+  /* Style for the Add Task button */
+  .btn-primary {
+    background-color: #97cf8a;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #7a9f79;
+  }
+  
+  /* Style for the Mini Calendar */
+  .card {
+    background-color: #b1dd9e;
+  }
+  
+  /* Additional Styles */
+  .list-group-item {
+    background-color: #acd1af;
+    border: 1px solid #315a39;
+    color: #315e26;
+  }
+
+/* Custom Header Style */
+.custom-navbar {
+    background-color: #85aa9b;  /* custom color */
+    padding: 20px 0;  /* increase padding to make it wider */
+  }
+  
+  .custom-navbar .navbar-brand,
+  .custom-navbar .nav-link {
+    color: white !important;  /* text color */
+  }
+  
+ /* Flex container styles */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 100% of the viewport height */
+  }
+  
+  /* Flex content styles */
+  .flex-content {
+    flex: 1; /* take up all available space */
+  }
+  
+  /* Custom Footer Style */
+  .custom-footer {
+    background-color: #85aa9b;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .container-fluid {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .custom-footer {
+    margin-top: auto;
+    background-color: #85aa9b;
+  }
+  
+  .custom-navbar {
+    background-color: #85aa9b;
+  }
+  
+
+  
+ 
