@@ -1,6 +1,7 @@
 # ASPfinal
 Final Project for Agile Software Projects - Web App (To Do List) 
 Welcome to Parallel, your go-to solution for efficient and effective task management. Designed to simplify your daily routines, Parallel offers a seamless and intuitive experience to help you stay organized, focused, and in control of your tasks. This comprehensive user manual will guide you through every aspect of the Parallel to-do list web application, ensuring you make the most of its features and capabilities.
+
  
 ## Table of Contents
  
