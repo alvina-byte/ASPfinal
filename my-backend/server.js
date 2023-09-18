@@ -1,6 +1,5 @@
 const express = require('express');
-const app = express();
-const PORT = 4000;
+const router = express.Router();
 
 app.get('/', (req, res) => {
   res.send('Hello, world!');
@@ -53,3 +52,5 @@ app.get('/getTasks', (req, res) => {
     return res.status(200).send(rows);
   });
 });
+
+module.exports = router;

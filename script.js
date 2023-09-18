@@ -1,7 +1,4 @@
 let taskId = 0;
-const express = require('express');
-const app = express();
-app.use(express.json())
 
 // Function for Kanban board tasks
 function addTask(columnId, inputId) {
